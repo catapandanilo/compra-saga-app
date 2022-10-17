@@ -18,10 +18,4 @@ public class PedidosService {
         pedidos.remove(id);
     }
 
-    // SAGA = base, tudo que eu faço tenho que ser capaz de desfazer **não é rollback**
-    // nao reconheço compra, nao vai devolver
-    // vai gerar um novo registro... compensação
-    // boa pratica, desenvolver "DO" e "UNDO"
-
-
 }
